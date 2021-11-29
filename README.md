@@ -15,3 +15,4 @@ Here are some ideas to get you started:
 -->
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Bob369-ops&theme=cobalt)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bob369-ops&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
