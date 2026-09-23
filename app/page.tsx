@@ -5,42 +5,42 @@ import { FormEvent, useState } from "react";
 const services = [
   {
     title: "Electrical",
-    copy: "Installation and maintenance for homes and businesses.",
+    copy: "Electrical installations, upgrades and maintenance for residential and commercial spaces.",
     icon: "⚡",
     image:
       "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=72"
   },
   {
     title: "Solar Energy",
-    copy: "Clean power designed around how you use energy.",
+    copy: "Solar power systems designed around your energy needs.",
     icon: "☀",
     image:
       "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=900&q=72"
   },
   {
     title: "HVAC",
-    copy: "Comfortable and efficient climate control systems.",
+    copy: "Air conditioning and HVAC systems for comfortable, efficient spaces.",
     icon: "◌",
     image:
       "https://images.unsplash.com/photo-1631545806609-4d6f2e2c5c0b?auto=format&fit=crop&w=900&q=72"
   },
   {
     title: "CCTV and Security",
-    copy: "Security systems for homes, offices and businesses.",
+    copy: "CCTV and security systems for better visibility and protection.",
     icon: "◉",
     image:
       "https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=900&q=72"
   },
   {
     title: "UPS Systems",
-    copy: "Power protection for equipment that cannot stop.",
+    copy: "UPS systems that keep essential equipment powered when the mains goes down.",
     icon: "▣",
     image:
       "https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=900&q=72"
   },
   {
     title: "Generators",
-    copy: "Reliable backup power and maintenance.",
+    copy: "Generator installation, backup power and maintenance support.",
     icon: "⚙",
     image:
       "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=72"
@@ -138,7 +138,7 @@ export default function Home() {
           <div className="container intro-grid">
             <div>
               <p className="section-kicker">WHAT WE DO</p>
-              <h2>Engineering that works.</h2>
+              <h2>Practical engineering. Built to work.</h2>
             </div>
             <p className="intro-copy">
               We design, install and maintain the systems that keep spaces
@@ -152,10 +152,10 @@ export default function Home() {
             <div className="section-head">
               <div>
                 <p className="section-kicker">OUR SERVICES</p>
-                <h2>Built around your needs.</h2>
+                <h2>Solutions for the way you work.</h2>
               </div>
               <a className="text-link dark-link" href="#contact">
-                Talk to us <span>→</span>
+                Start a conversation <span>→</span>
               </a>
             </div>
 
@@ -185,13 +185,13 @@ export default function Home() {
             <div className="feature-image" />
             <div className="feature-copy">
               <p className="section-kicker">ONE TEAM</p>
-              <h2>One partner for the systems your space depends on.</h2>
+              <h2>Power, cooling and security. One team.</h2>
               <p>
                 From power and cooling to security and backup, we bring the
                 work together.
               </p>
               <a className="btn btn-dark" href="#contact">
-                Discuss your project <span>→</span>
+                Plan your project <span>→</span>
               </a>
             </div>
           </div>
@@ -201,19 +201,19 @@ export default function Home() {
           <div className="container stats-grid">
             <div>
               <strong>2015</strong>
-              <span>Established</span>
+              <span>Since</span>
             </div>
             <div>
               <strong>6</strong>
-              <span>Core services</span>
+              <span>Service areas</span>
             </div>
             <div>
               <strong>Kenya</strong>
-              <span>Based in Nairobi</span>
+              <span>+254 795 321293</span>
             </div>
             <div>
-              <strong>1</strong>
-              <span>Engineering partner</span>
+              <strong>360°</strong>
+              <span>Project support</span>
             </div>
           </div>
         </section>
@@ -222,13 +222,25 @@ export default function Home() {
           <div className="container contact-grid">
             <div className="contact-copy">
               <p className="section-kicker">PROJECT ENQUIRY</p>
-              <h2>Have a project in mind?</h2>
-              <p>Tell us what you need. We will get back to you.</p>
+              <h2>Let’s talk about your project.</h2>
+              <p>Tell us what you need and our team can discuss the next step.</p>
 
               <div className="contact-detail">
                 <span>Email</span>
                 <a href="mailto:info@twobobenterprises.co.ke">
                   info@twobobenterprises.co.ke
+                </a>
+              </div>
+
+              <div className="contact-detail">
+                <span>Phone</span>
+                <a href="tel:+254795321293">+254 795 321293</a>
+              </div>
+
+              <div className="contact-detail">
+                <span>Careers</span>
+                <a href="mailto:careers@twobobenterprises.co.ke">
+                  careers@twobobenterprises.co.ke
                 </a>
               </div>
 
